@@ -8,10 +8,11 @@ export default class AccountPaginationSmall extends LightningElement {
     pageSize = 10;
     totalPages = 0;
     @track pages = [];
-
+    
     connectedCallback() {
         this.loadTotal();
         this.loadAccounts();
+        //read
         //dg
     }
 
